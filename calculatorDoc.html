@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="calculatorStyles.css">
+    <script src="calculatorJS.js"></script>
+</head>
+
+<body>
+    <div id="calculadora">
+        <div type="text" name="números">
+            <input type="text" name="resultados" id="resultado" disabled>
+        </div>
+        <br />
+
+        <button id="seven" class="btn" value="7" onclick="addNumber(7)">7</button>
+        <button id="eight" class="btn" value="8" onclick="addNumber(8)">8</button>
+        <button id="nine" class="btn" value="9" onclick="addNumber(9)">9</button>
+        <button id="x" class="btnop" value="x" onclick="addMulti()">x</button>
+        <br />
+        <button id="four" class="btn" value="4" onclick="addNumber(4)">4</button>
+        <button id="five" class="btn" value="5" onclick="addNumber(5)">5</button>
+        <button id="six" class="btn" value="6" onclick="addNumber(6)">6</button>
+        <button id="divide" class="btnop" value="/" onclick="addDivide()">/</button>
+        <br />
+        <button id="one" class="btn" value="1" onclick="addNumber(1)">1</button>
+        <button id="two" class="btn" value="2" onclick="addNumber(2)">2</button>
+        <button id="three" class="btn" value="3" onclick="addNumber(3)">3</button>
+        <button id="plus" class="btnop" value="+" onclick="addPlus()">+</button>
+        <br />
+        <button id="equal" class="btnop" value="=" onclick="addEqual()">=</button>
+        <button id="zero" class="btn" value="0" onclick="addNumber(0)">0</button>
+        <button id="reset" class="btnop" value="" onclick="addReset()">C</button>
+        <button id="minus" class="btnop" value="-" onclick="addMinus()">-</button>
+    </div>
+
+
+
+
+</body>
+
+</html>
